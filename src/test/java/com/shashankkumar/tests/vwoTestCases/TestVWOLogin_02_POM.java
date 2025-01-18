@@ -1,7 +1,7 @@
 package com.shashankkumar.tests.vwoTestCases;
 
-import com.shashankkumar.pages.pageObjectModel.vwo.DashboardPage;
-import com.shashankkumar.pages.pageObjectModel.vwo.LoginPage;
+import com.shashankkumar.pages.pageObjectModel.vwo.normal.DashboardPage;
+import com.shashankkumar.pages.pageObjectModel.vwo.normal.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class TestVWOLogin_POM {
+public class TestVWOLogin_02_POM {
 
     @Owner("Shashank")
     @Description("To Verify that invalid creds give Error Message")
