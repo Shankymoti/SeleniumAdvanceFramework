@@ -8,7 +8,8 @@ import utils.PropertiesReader;
 
 import java.time.Duration;
 
-import static com.shashankkumar.driver.DriverManager.getDriver;
+//import static com.shashankkumar.driver.DriverManager.getDriver;
+import static com.shashankkumar.driver.DriverManagerThreadLocalSupport.getDriver;
 /*
 It imports the static method getDriver() from the DriverManager class located in the package com.thetestingacademy.driver.
 With this import, you can call getDriver() directly in your code without needing to prefix it with the class name

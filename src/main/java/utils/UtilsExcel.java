@@ -26,7 +26,7 @@ public class UtilsExcel {
         }
 
         try {
-            Workbook workbook = WorkbookFactory.create(file);
+            workbook = WorkbookFactory.create(file);
             sheet = workbook.getSheet(sheet_Name);
         } catch (IOException e) {
             throw new RuntimeException(e);
