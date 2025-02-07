@@ -11,13 +11,13 @@ public class CommonToAllTest {
 
     @BeforeMethod
     public void setup() throws MalformedURLException {
-       // DriverManager.init();
-        DriverManagerThreadLocalSupport.init();
+        DriverManager.init();
+       // DriverManagerThreadLocalSupport.init();  //for parallel execution
     }
 
     @AfterMethod
     public void tearDown(){
-      //  DriverManager.down();
-         DriverManagerThreadLocalSupport.down();
+       DriverManager.down();
+      //   DriverManagerThreadLocalSupport.down(); //for parallel execution
     }
 }
