@@ -13,7 +13,10 @@ import java.util.Locale;
 
 public class DriverManager {
     public static WebDriver driver;
-
+/*
+getDriver() → Returns the current WebDriver instance.
+setDriver(WebDriver driver) → Assigns a WebDriver instance to the global variable.
+ */
     public static WebDriver getDriver(){
         return driver;
     }
